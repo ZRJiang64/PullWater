@@ -183,7 +183,7 @@ def get_points(img, ratio=1, mode=1):
             print("mode4 ")
 
         elif k == ord('q'):
-            if points[0] != []  and points[4] != []:
+            if points[0] != [] :
                 break
 
         elif k == ord('r'):
