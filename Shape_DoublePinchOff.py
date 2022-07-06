@@ -214,7 +214,7 @@ if (os.path.exists(convert(dPath)+'\/edge') == 0):
 ###將圖片修圖並且存檔
 for i in range(len(fList)):
     origin = cv2.imread(pList[i] )
-    canny = cv2.Canny(origin, 150, 200)
+    canny = cv2.Canny(origin, 75, 150)
     
     if points[0] == []:
         control = 1
